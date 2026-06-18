@@ -34,5 +34,5 @@ Note: for hackathon simplicity, RLS is disabled in that script.
 ## Hackathon submission checklist
 - Deployed URL (Vercel): https://makeathon-2026-louisrodriguez.vercel.app
 - Source repo URL (GitHub): https://github.com/LouisRodriguez12101815/makeathon-2026-louisrodriguez
-- 30–90s demo video: fill in here
+- Demo video (YouTube): https://youtu.be/ANryI-RTDHk
 - Screenshot(s): dashboard + audit result state
