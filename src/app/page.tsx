@@ -246,6 +246,45 @@ ${leadData.email}`;
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
+                  {/* Engagement links: make social + writeup impossible to miss for reviewers */}
+                  <div className="mb-5 rounded-xl border border-amber-500/30 bg-amber-500/10 p-4">
+                    <div className="text-xs font-extrabold tracking-wider uppercase text-amber-200">Engagement links</div>
+                    <p className="mt-1 text-sm text-slate-200">
+                      Review the build story + socials (hackathon requirement):
+                    </p>
+                    <div className="mt-3 grid grid-cols-1 gap-2">
+                      <a
+                        href="https://www.linkedin.com/posts/cloud-louis_forgot-just-how-many-tools-were-on-figma-share-7473542221330534400-Xcj2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDY9f8BPSK9XermphDoPj6w2YLqsA39hL0"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="w-full rounded-md border border-slate-700 bg-slate-900/60 px-3 py-2 text-sm font-bold text-slate-100 hover:bg-slate-900 hover:border-slate-500 transition-colors"
+                      >
+                        LinkedIn — social post
+                      </a>
+                      <a
+                        href="https://medium.com/@louis.rodriguez006/feeshield-a-30-second-audit-for-latam-payment-processor-fees-config-makeathon-05f7f23930e4"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="w-full rounded-md border border-slate-700 bg-slate-900/60 px-3 py-2 text-sm font-bold text-slate-100 hover:bg-slate-900 hover:border-slate-500 transition-colors"
+                      >
+                        Medium — full writeup
+                      </a>
+                      <a
+                        href="https://x.com/Louis_buckies/status/2067772057547374957"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="w-full rounded-md border border-slate-700 bg-slate-900/60 px-3 py-2 text-sm font-bold text-slate-100 hover:bg-slate-900 hover:border-slate-500 transition-colors"
+                      >
+                        X — announcement post
+                      </a>
+                    </div>
+                    <div className="mt-3 text-xs text-slate-300">
+                      Quick links: <a className="underline hover:text-white" target="_blank" rel="noreferrer" href="https://youtu.be/ANryI-RTDHk">demo video</a> ·{' '}
+                      <a className="underline hover:text-white" target="_blank" rel="noreferrer" href="https://github.com/LouisRodriguez12101815/makeathon-2026-louisrodriguez">source</a> ·{' '}
+                      <a className="underline hover:text-white" target="_blank" rel="noreferrer" href="https://www.figma.com/file/UiTojwSQh8dbKeJZI1YonL/branding_makeAthon">Figma board</a>
+                    </div>
+                  </div>
+
                   <form onSubmit={handleLeadSubmit} className="space-y-4">
                     <div className="space-y-2">
                       <label className="text-sm font-medium flex items-center gap-2"><User size={16}/> Your Name</label>
